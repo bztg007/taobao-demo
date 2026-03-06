@@ -1,0 +1,742 @@
+/* 取消a标签下划线 */
+a{
+    text-decoration: none;
+}
+
+/* 取消ul默认样式 */
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    border: none;
+}
+li {
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+}
+
+.banner{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.top{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.top .left span a{
+    color: rgb(253, 134, 65);
+    margin-right: 5px;
+}
+
+.top a{
+    margin-right: 20px;
+    color: black;
+}
+
+.top .right ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top .right li:nth-child(4) i{
+    color: orange;
+}
+
+.banner .top .right ul li .more a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.banner .top .right ul li:nth-child(3){
+    position: relative;
+    display: inline-block;
+}
+
+.banner .top .right ul li:nth-child(3) .more{
+    position: absolute;
+    line-height: 1.2;
+    width: auto;
+    min-width: 120px;
+    height: auto;
+    top: 38px;
+    background-color: white;
+    /* box-shadow: 水平偏移 垂直偏移 模糊半径 扩展半径 阴影颜色 阴影类型; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    /* border: 2px solid rgb(173, 173, 173, 0.3); */
+    border-radius: 10px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease 0.3s;
+    /* 补充缝隙 */
+    border-top: 2px solid transparent;
+} 
+
+.banner .top .right ul li:nth-child(5) .more{
+    position: absolute;
+    line-height: 1.2;
+    width: auto;
+    min-width: 120px;
+    height: auto;
+    top: 38px;
+    background-color: white;
+    /* box-shadow: 水平偏移 垂直偏移 模糊半径 扩展半径 阴影颜色 阴影类型; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    /* border: 2px solid rgb(173, 173, 173, 0.3); */
+    border-radius: 10px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease 0.3s;
+    /* 补充缝隙 */
+    border-top: 2px solid transparent;
+} 
+
+.banner .top .right ul li:nth-child(6) .more{
+    position: absolute;
+    line-height: 1.2;
+    width: auto;
+    min-width: 120px;
+    height: auto;
+    top: 38px;
+    background-color: white;
+    /* box-shadow: 水平偏移 垂直偏移 模糊半径 扩展半径 阴影颜色 阴影类型; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    /* border: 2px solid rgb(173, 173, 173, 0.3); */
+    border-radius: 10px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease 0.3s;
+    /* 补充缝隙 */
+    border-top: 2px solid transparent;
+} 
+
+.banner .top .right ul li:nth-child(7) .more{
+    position: absolute;
+    line-height: 1.2;
+    width: auto;
+    min-width: 120px;
+    height: auto;
+    top: 38px;
+    background-color: white;
+    /* box-shadow: 水平偏移 垂直偏移 模糊半径 扩展半径 阴影颜色 阴影类型; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    /* border: 2px solid rgb(173, 173, 173, 0.3); */
+    border-radius: 10px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease 0.3s;
+    /* 补充缝隙 */
+    border-top: 2px solid transparent;
+} 
+
+.banner .top .right ul li:nth-child(8) .more{
+    position: absolute;
+    line-height: 1.2;
+    width: auto;
+    min-width: 120px;
+    height: auto;
+    top: 38px;
+    background-color: white;
+    /* box-shadow: 水平偏移 垂直偏移 模糊半径 扩展半径 阴影颜色 阴影类型; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    /* border: 2px solid rgb(173, 173, 173, 0.3); */
+    border-radius: 10px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease 0.3s;
+    /* 补充缝隙 */
+    border-top: 2px solid transparent;
+} 
+
+.banner .top .right li i[class*="icon-jiantou"]{
+    /* margin-left: 0 !important; */
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.banner .top .right ul li:hover i{
+    transform: rotate(180deg);
+}
+
+.banner .top .right ul li:nth-child(3):hover .more{
+    opacity: 1;
+    visibility: visible;
+}
+
+.banner .top .right ul li:nth-child(5):hover .more{
+    opacity: 1;
+    visibility: visible;
+}
+
+.banner .top .right ul li:nth-child(6):hover .more{
+    opacity: 1;
+    visibility: visible;
+}
+
+.banner .top .right ul li:nth-child(7):hover .more{
+    opacity: 1;
+    visibility: visible;
+}
+
+.banner .top .right ul li:nth-child(8):hover .more{
+    opacity: 1;
+    visibility: visible;
+}
+
+.banner .top a:hover{
+    color: rgb(253, 134, 65);
+}
+
+.fixed{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 0, 0, 0.3),
+        white
+    );
+}
+
+.fixed ul{
+    display: flex;
+    gap: 5px;
+}
+
+.fixed .left i{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fixed .right i{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fixed .left li{
+    margin-left: 20px;
+}
+
+.fixed .right li{
+    margin-right: 20px;
+}
+
+.fixed p {
+  font-size: 14px;
+}
+
+/* 公共样式 */
+.fixed .left,
+.fixed .right,
+.fixed .center{
+    display: flex;
+}
+
+.fixed .center img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.fixed .center p{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    align-self: flex-end;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.fixed .center .left{
+    margin-left: 20px;
+}
+
+.fixed .center .right{
+    margin-right: 20px;
+}
+
+.top .cancel i{
+    position: absolute;
+    top: 25px;
+    right: 26px;
+    font-size: 25px;
+}
+
+.top .cancel i:hover{
+    cursor: pointer;
+}
+
+/* 搜索框样式 */
+.fixed .bottom .search{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    width: 560px;
+    height: 44px;
+    border-radius: 15px;
+    border: 2px solid orangered;
+    justify-content: space-between;
+}
+
+.fixed .search .left{
+    position: relative;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.fixed .bottom .search .left span{
+    display: block;
+}
+
+.fixed .bottom .search .left i{
+    display: flex;
+}
+
+.fixed .bottom .search .left .hidden{
+    position: absolute;
+    top: 100%;
+    left: -8px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease 0.3s;
+    /* 补充缝隙 */
+    border-top: 2px solid transparent;
+}
+
+/* 使用 ~ 来选中 .hidden */
+.fixed .bottom .search .left:hover .hidden{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 搜索按钮样式 */
+.fixed .bottom .search button{
+    margin-right: 16px;
+    margin-top: 8px;
+    width: 60px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(255, 80, 36);
+    border-radius: 10px;
+    border: none;
+}
+
+.fixed .bottom .search button:hover{
+    cursor: pointer;
+}
+
+.fixed .bottom .search .left .input input{
+    position: absolute;
+    top: 5px;
+    left: 85px;
+    /* background-color: pink; */
+    border: none !important;
+    outline: none !important;
+}
+
+.fixed .bottom .search .left .input ::placeholder{
+    font-size: 16px;
+    color: rgb(38, 35, 35, 0.7);
+}
+
+.fixed .logo{
+    position: absolute;
+    display: flex;
+    top: 100px;
+    left: 50px;
+}
+
+.fixed .logo .left{
+    position: relative;
+    text-align: center;
+    width: 180px;
+    border-right: 2px solid rgb(255, 112, 24); 
+}
+
+.fixed .logo .left a{
+    font-size: 60px;
+    display: block;
+    color: rgb(255, 112, 24);
+}
+
+.fixed .logo .left .dress{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-size: 55px;
+    color: rgb(255, 112, 24);
+}
+
+.fixed .logo .right a{
+    margin-left: 10px;
+    font-size: 30px;
+    width: 60px;
+    color: rgb(255, 112, 24);
+    line-height: 1;
+}
+
+.cannel{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.cannel ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.cannel a{
+    margin: 0 10px;
+    color: black;
+}
+
+.body{
+    width: 1104px;
+    height: 332px;
+    margin-left: 150px;
+    /* background-color: pink; */
+    display: flex;
+}
+
+.body .guide,
+.body .id{
+    width: 256px;
+    height: 100%;
+    background-color: rgb(179, 170, 170, 0.15);
+    border-radius: 10px;
+}
+
+.body .banner{
+    width: 560px;
+    height: 100%;
+    background-color: skyblue;
+    border-radius: 25px;
+}
+
+.body .guide ul{
+    padding: 10px;
+}
+
+.body .guide ul li{
+    margin-top: 10px;
+}
+
+.body .guide ul li a{
+    margin-left: 6px;
+    color: black;
+}
+
+.body .guide ul li a:hover{
+    color: rgb(255, 112, 24);
+}
+
+.body .banner img{
+    width: 560px;
+    height: 332px;
+    border-radius: 25px;
+}
+
+.body .banner{
+    position: relative;
+}
+
+.body .banner .recent{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    gap: 8px;
+    padding: 8px 12px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.body .banner .recent ul{
+    display: flex;
+}
+
+.body .banner .recent div {
+    width: 6px;
+    height: 6px;
+    margin: 0 3px;
+    background-color: rgb(255, 242, 242, 0.6);
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.body .banner .recent div:hover{
+    cursor: pointer;
+}
+
+.body .banner .recent ul .active{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+}
+
+.body .id img{
+    margin: 20px;
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+}
+
+.body .id .landing{
+    position: relative;
+    display: flex;
+}
+
+.body .id .landing p{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-size: 12px;
+}
+
+.body .id .landing .welcome{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.body .id .landing p a{
+    color: rgb(109, 107, 107);
+}
+
+.body .id .landing p a:hover{
+    color: rgb(255, 112, 24);
+}
+
+.body .id .strong{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 1.5;
+}
+
+.body .id span{
+    font-size: 12px;
+    margin-left: 35px;
+    color: rgb(189, 177, 177);
+}
+
+.body .id .button{
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 224px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ff5000;
+    border-radius: 15px;
+}
+
+.body .id .button a{
+    color: white;
+    line-height: 48px;
+}
+
+.body .id .more{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body .id .more ul li a p {
+    font-size: 14px;
+    margin: 0; 
+    padding: 0; 
+}
+
+.body .id .more ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;  
+    padding: 0;  
+    margin: 0; 
+    list-style: none; 
+}
+
+.body .id .more ul li a {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px; 
+}
+
+.body .id .more ul li a:hover{
+    color: #ff5000;
+}
+
+.like{
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    margin-left: 150px;
+    color: #ff5000;
+    text-align: center;
+    background-color: #fbccb8;
+    border-radius: 8px;
+}
+
+.good{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.good ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.good ul li img{
+    width: 200px;
+    height: 150px;
+}
+
+.good ul li{
+    position: relative;
+    width: 200px;
+}
+
+.good ul li span{
+    position: absolute;
+    top: 250px;
+    color: #ff5000;
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.tao{
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 850;
+}
+
+.introduce{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.introduce p{
+    margin: 0;
+}
+
+.introduce p a{
+    color: #ff5000;
+}
+
+.table{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table dl{
+    margin: 30px auto; 
+    width: 220px; 
+}
+
+.table dl dd{
+    margin: 0px;
+    margin-bottom: 10px; 
+    font-size: 14px; 
+}
+
+.table dl dd a{
+    color: #333;
+}
+
+.table dl dd a:hover{
+    color: #ff5000;
+}
+
+.table dl dt{
+    margin-bottom: 10px; 
+    font-weight: bold;
+    font-size: 16px; 
+    color: #000; 
+}
+
+.shop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.shop a,
+.foot span a{
+    color: #333;
+}
+
+.shop a:hover{
+    color: #ff5000;
+}
+
+.foot{
+    margin-top: 40px;
+    margin-right: 150px;
+    margin-left: 150px;
+    line-height: 2.2;
+}
+
+.foot span a:hover{
+    color: #ff5000;
+}
+
+.foot span a{
+    color: #333;
+    margin-right: 10px;
+}
+
+.foot .copyright i{
+    color: #333;
+    margin-right: 30px;
+}
+
+.foot .img img{
+    width: 204px;
+    height: 24px;
+}
